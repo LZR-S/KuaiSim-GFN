@@ -16,7 +16,7 @@ from model.policy import *
 from model.critic import *
 from model.buffer import *
 #from env import *
-from env import KRCrossSessionEnvironment_GPU
+from env import *
 
 import utils
 
@@ -63,6 +63,7 @@ if __name__ == '__main__':
     else:
         device = "cpu"
     args.device = device
+    print('device:', device)
     utils.set_random_seed(args.seed)
     
     # Environment
