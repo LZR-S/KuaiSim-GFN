@@ -1,0 +1,9 @@
+.DS_Store
+.csv
+.checkpoint
+.log
+.pyc
+.ipynb_checkpoints
+KRLBenchmark-GFN/code/output/
+KRLBenchmark-GFN/code/dataset/
+
